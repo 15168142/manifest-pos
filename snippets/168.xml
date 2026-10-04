@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="168"
+          fetch="https://github.com/15168142"
+          revision="seventeen" />
+
+  <remove-project path="build/soong" />
+  <remove-project path="frameworks/av" />
+  <remove-project path="frameworks/base" />
+  <remove-project path="frameworks/native" />
+  <remove-project path="packages/apps/Settings" />
+  <remove-project path="system/sepolicy" />
+  <remove-project path="vendor/lineage" />
+
+  <project path="build/soong" name="build_soong-pos" remote="168" />
+  <project path="frameworks/av" name="frameworks_av-pos" remote="168" />
+  <project path="frameworks/base" name="frameworks_base-pos" remote="168" />
+  <project path="frameworks/native" name="frameworks_native-pos" remote="168" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings-pos" remote="168" />
+  <project path="system/sepolicy" name="system_sepolicy-pos" remote="168" />
+  <project path="vendor/lineage" name="vendor_lineage-pos" remote="168" />
+</manifest>
