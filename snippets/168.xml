@@ -10,6 +10,7 @@
   <remove-project path="frameworks/native" />
   <remove-project path="packages/apps/Settings" />
   <remove-project path="system/sepolicy" />
+  <remove-project path="vendor/custom" />
   <remove-project path="vendor/lineage" />
 
   <project path="build/soong" name="build_soong-pos" remote="168" />
@@ -18,5 +19,6 @@
   <project path="frameworks/native" name="frameworks_native-pos" remote="168" />
   <project path="packages/apps/Settings" name="packages_apps_Settings-pos" remote="168" />
   <project path="system/sepolicy" name="system_sepolicy-pos" remote="168" />
+  <project path="vendor/custom" name="vendor_custom" remote="168" />
   <project path="vendor/lineage" name="vendor_lineage-pos" remote="168" />
 </manifest>
