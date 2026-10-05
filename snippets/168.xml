@@ -4,6 +4,7 @@
           fetch="https://github.com/15168142"
           revision="seventeen" />
 
+  <remove-project path="build/make" />
   <remove-project path="build/soong" />
   <remove-project path="frameworks/av" />
   <remove-project path="frameworks/base" />
@@ -13,6 +14,14 @@
   <remove-project path="vendor/custom" />
   <remove-project path="vendor/lineage" />
 
+  <project path="build/make" name="build-pos" remote="168">
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
   <project path="build/soong" name="build_soong-pos" remote="168" />
   <project path="frameworks/av" name="frameworks_av-pos" remote="168" />
   <project path="frameworks/base" name="frameworks_base-pos" remote="168" />
