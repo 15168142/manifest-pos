@@ -9,6 +9,7 @@
   <remove-project path="frameworks/av" />
   <remove-project path="frameworks/base" />
   <remove-project path="frameworks/native" />
+  <remove-project path="packages/apps/DolbyAtmos" />
   <remove-project path="packages/apps/Settings" />
   <remove-project path="system/sepolicy" />
   <remove-project path="vendor/custom" />
@@ -26,6 +27,7 @@
   <project path="frameworks/av" name="frameworks_av-pos" remote="168" />
   <project path="frameworks/base" name="frameworks_base-pos" remote="168" />
   <project path="frameworks/native" name="frameworks_native-pos" remote="168" />
+  <project path="packages/apps/DolbyAtmos" name="packages_apps_DolbyAtmos-pos" remote="168" />
   <project path="packages/apps/Settings" name="packages_apps_Settings-pos" remote="168" />
   <project path="system/sepolicy" name="system_sepolicy-pos" remote="168" />
   <project path="vendor/custom" name="vendor_custom" remote="168" />
